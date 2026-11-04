@@ -1,0 +1,6 @@
+// Top-level build file. The only plugin is the Android application plugin;
+// the project is plain Java with no AndroidX / Kotlin dependencies on purpose,
+// so the APK stays small and the build has very few moving parts.
+plugins {
+    id 'com.android.application' version '8.10.1' apply false
+}
